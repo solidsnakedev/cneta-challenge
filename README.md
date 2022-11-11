@@ -1,8 +1,9 @@
 ## Getting Started
 
-First, create a .env.local file for eg
-```
-cat > ./.env.local2 << EOF
+First, create a .env.local file 
+
+```bash
+cat > ./.env.local << EOF
 BLOCKFROST_KEY="<API-KEY>"
 API_URL="https://cardano-preprod.blockfrost.io/api/v0"
 NETWORK="Preprod"
