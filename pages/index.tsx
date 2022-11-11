@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       </Head>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <Link href="/" className="btn btn-ghost normal-case text-xl">Raffle</Link>
+          <Link href="/" className="btn btn-ghost normal-case text-xl">Home</Link>
         </div>
         <div className="flex-none">
           <WalletConnect />
