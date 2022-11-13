@@ -1,7 +1,7 @@
 import { Lucid } from "lucid-cardano"
 import { NextPage } from "next"
 import { useEffect, useState } from "react"
-import { mintRaffle } from "../lib/endpoints"
+import { mintParam } from "../lib/endpoints"
 import initLucid from "../utils/lucid"
 import { useStoreState } from "../utils/store"
 
@@ -25,7 +25,7 @@ const Mint: NextPage = () => {
     return (
         <div className='flex '>
             <div className='flex '>
-            <button className="btn btn-outline btn-primary btn-xs sm:btn-sm md:btn-md lg:btn-lg m-5" onClick={() => { mintRaffle(lucid as Lucid) }}>Mint</button>
+            <button className="btn btn-outline btn-primary btn-xs sm:btn-sm md:btn-md lg:btn-lg m-5" onClick={() => { mintParam(lucid as Lucid) }}>Mint</button>
             </div>
 
         </div>

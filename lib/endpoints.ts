@@ -2,7 +2,7 @@ import { Lucid, Data, utf8ToHex, Constr, applyParamsToScript, MintingPolicy } fr
 import * as helios from '@hyperionbt/helios'
 import {mintPolicyNoParams} from  '../utils/validators'
 
-export const mintRaffle = async (lucid : Lucid) => {
+export const mintParam = async (lucid : Lucid) => {
     if (lucid) {
         console.log("minting")
         const walletUtxos = await lucid.wallet.getUtxos()
