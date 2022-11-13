@@ -25,7 +25,7 @@ const Mint: NextPage = () => {
     return (
         <div className='flex '>
             <div className='flex '>
-            <button className="btn btn-outline btn-primary btn-xs sm:btn-sm md:btn-md lg:btn-lg m-5" onClick={() => { mintRaffle(lucid as Lucid) }}>Mint Raffle</button>
+            <button className="btn btn-outline btn-primary btn-xs sm:btn-sm md:btn-md lg:btn-lg m-5" onClick={() => { mintRaffle(lucid as Lucid) }}>Mint</button>
             </div>
 
         </div>
